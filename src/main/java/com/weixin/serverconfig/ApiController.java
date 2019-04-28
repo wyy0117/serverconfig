@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
  * @Date: 2019-04-24
  * @Author: wyy
  */
-@RestController("wx")
+@RestController()
 public class ApiController {
 
     private final Log log = LogFactory.getLog(ApiController.class);
