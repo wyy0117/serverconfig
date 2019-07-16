@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  wxserverconfig:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: wxserverconfig
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    ports:
+      - 8080:8080
